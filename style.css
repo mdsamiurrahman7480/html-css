@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bolder;
+  background: #282a36;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.firstLine,
+.secoundLine,
+.fourLine,
+.thirdLine {
+  color: #fcfcfa;
+  margin-left: 40%;
+}
+
+.firstLine {
+  margin-bottom: 15px;
+}
+
+.secoundLine {
+  display: flex;
+}
+
+.same {
+  background: #ffc0c8;
+  padding: 18px 22px;
+  color: #282a36;
+  margin: 6px;
+}
+
+.thirdLine {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fourLine {
+  display: flex;
+}
+
+.sameCopy {
+  background: #fdf5a4;
+  padding: 18px 22px;
+  color: #282a36;
+  margin: 6px;
+}
+
+@media only screen and (max-width:900px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .firstLine {
+    margin-left: 200px;
+  }
+
+  .secoundLine,
+  .fourLine {
+    margin-left: 25%;
+  }
+
+  .thirdLine {
+    margin-left: 197px;
+  }
+
+  /* 
+  .firstLine {
+    margin-bottom: 15px;
+  }
+
+  .secoundLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .same {
+    background: #ffc0c8;
+    padding: 18px 22px;
+    color: #282a36;
+    margin: 6px;
+  }
+
+  .thirdLine {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .fourLine {
+    display: flex;
+  }
+
+  .sameCopy {
+    background: #fdf5a4;
+    padding: 18px 22px;
+    color: #282a36;
+    margin: 6px;
+  } */
+}
